@@ -12,7 +12,7 @@ body, html {
 }
 
 body {
-  background: url('JOE-HEADSHOTS-1.jpg') no-repeat center center fixed;
+  background: black url('JOE-HEADSHOTS-1.jpg') no-repeat center center fixed;
   background-size: 120%;
   background-position-y: -15vh; /* Default: portrait-first layout */
   background-attachment: fixed;
@@ -21,7 +21,7 @@ body {
 
 @media (orientation: landscape) {
   body {
-    background-position-y: -60vh; /* Less lift in landscape */
+    background-position-y: -60vh;
   }
 }
 
@@ -30,10 +30,10 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* center vertically by default */
+  justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 40vh; /* shift content downward toward bottom center */
+  padding-top: 40vh;
 }
 
 /* Typography */
@@ -46,7 +46,7 @@ h1 {
 
 p {
   font-size: 1.5rem;
-  color: #d2b48c; /* classy tan */
+  color: #d2b48c;
   margin-bottom: 2rem;
 }
 
